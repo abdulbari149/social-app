@@ -1,31 +1,24 @@
-import { NextFunction, Response } from 'express';
-import { verify } from 'jsonwebtoken';
-import { SECRET_KEY } from '@config';
+import { NextFunction, Request, Response } from 'express';
 import { HttpException } from '@exceptions/HttpException';
-import { DataStoredInToken, RequestWithUser } from '@interfaces/auth.interface';
-import userModel from '@models/users.model';
+import userModel, { UserData } from '@models/users.model';
+import { JWTHelpers } from '@/helpers/jwt.helpers';
+import { StatusCodes } from 'http-status-codes';
+import { TokenPayload } from '@/interfaces/auth.interface';
 
-const authMiddleware = async (req: RequestWithUser, res: Response, next: NextFunction) => {
+const authMiddleware = async (req: Request & { user: UserData }, res: Response, next: NextFunction) => {
   try {
-    const Authorization = req.cookies['Authorization'] || (req.header('Authorization') ? req.header('Authorization').split('Bearer ')[1] : null);
-
-    if (Authorization) {
-      const secretKey: string = SECRET_KEY;
-      const verificationResponse = (await verify(Authorization, secretKey)) as DataStoredInToken;
-      const userId = verificationResponse._id;
-      const findUser = await userModel.findById(userId);
-
-      if (findUser) {
-        req.user = findUser;
-        next();
-      } else {
-        next(new HttpException(401, 'Wrong authentication token'));
-      }
-    } else {
-      next(new HttpException(404, 'Authentication token missing'));
+    const token = req.cookies['Authorization'] || (req.header('Authorization') ? req.header('Authorization').split('Bearer ')[1] : null);
+    if (!token) {
+      throw new HttpException(StatusCodes.UNAUTHORIZED, 'Token Not Found');
     }
+    const payload = await JWTHelpers.verifyAccessToken<TokenPayload>(token);
+    const user = await userModel.findById(payload.userId).exec();
+    if (!user) {
+      throw new HttpException(StatusCodes.NOT_FOUND, 'Wrong Authentication Token');
+    }
+    req.user = user.toObject();
   } catch (error) {
-    next(new HttpException(401, 'Wrong authentication token'));
+    next(error);
   }
 };
 

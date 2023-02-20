@@ -1,6 +1,6 @@
 import { jwt } from '@/config';
 import { TokenData } from '@/interfaces/auth.interface';
-import { sign } from 'jsonwebtoken';
+import { sign, verify } from 'jsonwebtoken';
 
 export class JWTHelpers {
   public async signAccessToken<T extends object>(data: T): Promise<TokenData> {
@@ -9,6 +9,11 @@ export class JWTHelpers {
       token,
       expiresIn: jwt.access.expiresIn,
     };
+  }
+
+  public static async verifyAccessToken<T extends object>(token: string): Promise<T> {
+    const payload = await verify(token, jwt.access.secret) as T;
+    return payload;
   }
 
   public async signRefreshToken<T extends object>(data: T): Promise<TokenData> {

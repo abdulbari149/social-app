@@ -28,7 +28,7 @@ class AuthService {
     const isPasswordMatching: boolean = await compare(data.password, user.password);
     if (!isPasswordMatching) throw new HttpException(409, 'Password is not matching');
 
-    const tokenPayload = { id: user._id, email: user.email };
+    const tokenPayload = { userId: user._id, email: user.email };
     const [accessToken, refreshToken] = await Promise.all([
       this.jwtHelpers.signAccessToken(tokenPayload),
       this.jwtHelpers.signRefreshToken(tokenPayload),
