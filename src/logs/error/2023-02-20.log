@@ -1948,3 +1948,655 @@ TSError: ⨯ Unable to compile TypeScript:
     at Module.load (node:internal/modules/cjs/loader:981:32)
     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:15:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/loginHistory.service.ts[0m:[93m4[0m:[93m41[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m4[0m   public async addLoginHistory = (user) {
+[7m [0m [91m                                        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/loginHistory.service.ts[0m:[93m4[0m:[93m41[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m4[0m   public async addLoginHistory = (user) {
+[7m [0m [91m                                        ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:15:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/loginHistory.service.ts[0m:[93m4[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m4[0m   public async addLoginHistory = (userId: string, ) {
+[7m [0m [91m                                                    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/loginHistory.service.ts[0m:[93m4[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m4[0m   public async addLoginHistory = (userId: string, ) {
+[7m [0m [91m                                                    ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:15:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/loginHistory.service.ts[0m:[93m5[0m:[93m65[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m5[0m   public async addLoginHistory = (userId: string, req: Request) {
+[7m [0m [91m                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/loginHistory.service.ts[0m:[93m5[0m:[93m65[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m5[0m   public async addLoginHistory = (userId: string, req: Request) {
+[7m [0m [91m                                                                ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:16:16 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m27[0m:[93m80[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m27[0m       const loginHistory = await this.loginHistoryService.addLoginHistory(data.)
+[7m  [0m [91m                                                                               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m27[0m:[93m80[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m27[0m       const loginHistory = await this.loginHistoryService.addLoginHistory(data.)
+[7m  [0m [91m                                                                               ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:16:26 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m27[0m:[93m80[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m27[0m       const loginHistory = await this.loginHistoryService.addLoginHistory(data.)
+[7m  [0m [91m                                                                               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m27[0m:[93m80[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m27[0m       const loginHistory = await this.loginHistoryService.addLoginHistory(data.)
+[7m  [0m [91m                                                                               ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:16:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m27[0m:[93m80[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m27[0m       const loginHistory = await this.loginHistoryService.addLoginHistory(data.)
+[7m  [0m [91m                                                                               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m27[0m:[93m80[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m27[0m       const loginHistory = await this.loginHistoryService.addLoginHistory(data.)
+[7m  [0m [91m                                                                               ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:16:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m27[0m:[93m80[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m27[0m       const loginHistory = await this.loginHistoryService.addLoginHistory(data.)
+[7m  [0m [91m                                                                               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m27[0m:[93m80[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m27[0m       const loginHistory = await this.loginHistoryService.addLoginHistory(data.)
+[7m  [0m [91m                                                                               ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:16:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m27[0m:[93m85[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m27[0m       const loginHistory = await this.loginHistoryService.addLoginHistory(loginData.)
+[7m  [0m [91m                                                                                    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m27[0m:[93m85[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m27[0m       const loginHistory = await this.loginHistoryService.addLoginHistory(loginData.)
+[7m  [0m [91m                                                                                    ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:17:03 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/loginHistory.service.ts[0m:[93m5[0m:[93m65[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m5[0m   public async addLoginHistory = (userId: string, req: Request) {
+[7m [0m [91m                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/loginHistory.service.ts[0m:[93m5[0m:[93m65[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m5[0m   public async addLoginHistory = (userId: string, req: Request) {
+[7m [0m [91m                                                                ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:17:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/loginHistory.service.ts[0m:[93m5[0m:[93m65[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m5[0m   public async addLoginHistory = (userId: string, req: Request) {
+[7m [0m [91m                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/loginHistory.service.ts[0m:[93m5[0m:[93m65[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m5[0m   public async addLoginHistory = (userId: string, req: Request) {
+[7m [0m [91m                                                                ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:17:26 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/loginHistory.service.ts[0m:[93m5[0m:[93m65[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m5[0m   public addLoginHistory = async (userId: string, req: Request) {
+[7m [0m [91m                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/loginHistory.service.ts[0m:[93m5[0m:[93m65[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m5[0m   public addLoginHistory = async (userId: string, req: Request) {
+[7m [0m [91m                                                                ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:17:52 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/loginHistory.service.ts[0m:[93m6[0m:[93m29[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m6[0m     console.log({ headers:  });
+[7m [0m [91m                            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/loginHistory.service.ts[0m:[93m6[0m:[93m29[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m6[0m     console.log({ headers:  });
+[7m [0m [91m                            ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:17:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/loginHistory.service.ts[0m:[93m8[0m:[93m29[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m8[0m     console.log({ headers:  });
+[7m [0m [91m                            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/loginHistory.service.ts[0m:[93m8[0m:[93m29[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m8[0m     console.log({ headers:  });
+[7m [0m [91m                            ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:18:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m27[0m:[93m18[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   @prop({ type:  })
+[7m  [0m [91m                 ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m27[0m:[93m18[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   @prop({ type:  })
+[7m  [0m [91m                 ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:19:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m27[0m:[93m18[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   @prop({ type:  })
+[7m  [0m [91m                 ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m27[0m:[93m18[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   @prop({ type:  })
+[7m  [0m [91m                 ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:19:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m27[0m:[93m18[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   @prop({ type:  })
+[7m  [0m [91m                 ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m27[0m:[93m18[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   @prop({ type:  })
+[7m  [0m [91m                 ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:19:46 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m27[0m:[93m18[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   @prop({ type:  })
+[7m  [0m [91m                 ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m27[0m:[93m18[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   @prop({ type:  })
+[7m  [0m [91m                 ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:19:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m28[0m:[93m18[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m28[0m   @prop({ type:  })
+[7m  [0m [91m                 ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m28[0m:[93m18[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m28[0m   @prop({ type:  })
+[7m  [0m [91m                 ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:21:41 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m6[0m:[93m1[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m6[0m }
+[7m [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m6[0m:[93m1[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m6[0m }
+[7m [0m [91m~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:21:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m7[0m:[93m10[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m7[0m   @prop()
+[7m [0m [91m         [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m7[0m:[93m10[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m7[0m   @prop()
+[7m [0m [91m         [0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:22:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m10[0m:[93m8[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m10[0m   @Prop
+[7m  [0m [91m       [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m10[0m:[93m8[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m10[0m   @Prop
+[7m  [0m [91m       [0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:22:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m10[0m:[93m10[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m10[0m   @prop()
+[7m  [0m [91m         [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m10[0m:[93m10[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m10[0m   @prop()
+[7m  [0m [91m         [0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:22:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m13[0m:[93m10[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m13[0m   @prop()
+[7m  [0m [91m         [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m13[0m:[93m10[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m13[0m   @prop()
+[7m  [0m [91m         [0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:22:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m13[0m:[93m10[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m13[0m   @prop()
+[7m  [0m [91m         [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m13[0m:[93m10[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m13[0m   @prop()
+[7m  [0m [91m         [0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:23:45 error: uncaughtException: ty is not defined
+ReferenceError: ty is not defined
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/models/loginHistory.model.ts:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/models/users.model.ts:3:1)
+2023-02-20 15:24:11 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m16[0m:[93m26[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m16[0m   @prop({ type: Date,  })
+[7m  [0m [91m                         [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m16[0m:[93m26[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m16[0m   @prop({ type: Date,  })
+[7m  [0m [91m                         [0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:24:22 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m16[0m:[93m56[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m16[0m   @prop({ type: Date, required: false, default: null })
+[7m  [0m [91m                                                       [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m16[0m:[93m56[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m16[0m   @prop({ type: Date, required: false, default: null })
+[7m  [0m [91m                                                       [0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:24:50 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m19[0m:[93m58[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m19[0m   @prop({ type: Boolean, required: true, default: true })
+[7m  [0m [91m                                                         [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/loginHistory.model.ts[0m:[93m19[0m:[93m58[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m19[0m   @prop({ type: Boolean, required: true, default: true })
+[7m  [0m [91m                                                         [0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 15:26:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m26[0m:[93m73[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m26[0m       await this.loginHistoryService.addLoginHistory(loginData.user._id., req);
+[7m  [0m [91m                                                                        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m26[0m:[93m73[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m26[0m       await this.loginHistoryService.addLoginHistory(loginData.user._id., req);
+[7m  [0m [91m                                                                        ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 21:14:45 error: uncaughtException: The `uri` parameter to `openUri()` must be a string, got "object". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "object". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.Connection.openUri (/home/bari/Desktop/social-app/social-backend/node_modules/mongoose/lib/connection.js:695:11)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/mongoose/lib/index.js:411:10
+    at /home/bari/Desktop/social-app/social-backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/bari/Desktop/social-app/social-backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/home/bari/Desktop/social-app/social-backend/node_modules/mongoose/lib/index.js:1285:10)
+    at Mongoose.connect (/home/bari/Desktop/social-app/social-backend/node_modules/mongoose/lib/index.js:410:20)
+    at App.connectToDatabase (/home/bari/Desktop/social-app/social-backend/src/app.ts:52:12)
+    at new App (/home/bari/Desktop/social-app/social-backend/src/app.ts:27:10)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/server.ts:9:13)
+2023-02-20 21:16:37 error: uncaughtException: s is not defined
+ReferenceError: s is not defined
+    at App.connectToDatabase (/home/bari/Desktop/social-app/social-backend/src/app.ts:51:49)
+    at new App (/home/bari/Desktop/social-app/social-backend/src/app.ts:26:10)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/server.ts:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)

@@ -1,5 +1,6 @@
 import { prop, getModelForClass, modelOptions } from '@typegoose/typegoose';
 import { IData, IModel } from './interface';
+import { LoginHistorySchema } from './loginHistory.model';
 
 @modelOptions({ schemaOptions: { collection: 'users', timestamps: true } })
 class UserSchema {
@@ -23,6 +24,9 @@ class UserSchema {
 
   @prop({ type: String, required: true })
   public password: string;
+
+  @prop({ type: LoginHistorySchema, autopopulate: true, required: false })
+  public loginHistory: LoginHistorySchema[];
 
   public createdAt?: Date;
 

@@ -8,7 +8,8 @@ const validateEnv = () => {
     JWT_ACCESS_TOKEN_SECRET: str(),
     JWT_ACCESS_TOKEN_EXPIRES: str(),
     JWT_REFRESH_TOKEN_SECRET: str(),
-    JWT_REFRESH_TOKEN_EXPIRES: str()
+    JWT_REFRESH_TOKEN_EXPIRES: str(),
+    MONGO_URI: str()
   });
 };
 

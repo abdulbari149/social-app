@@ -2,7 +2,6 @@ import { NextFunction, Request, Response } from 'express';
 import { CreateUserDto } from '@dtos/users.dto';
 import AuthService from '@services/auth.service';
 import { StatusCodes } from 'http-status-codes';
-import { SignupDto } from '@/dtos/auth.dto';
 import { LoginHistoryService } from '@/services/loginHistory.service';
 
 class AuthController {
@@ -21,11 +20,10 @@ class AuthController {
   public logIn = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const userData: CreateUserDto = req.body;
-      const data = await this.authService.login(userData);
-      console.log({ headers: (req.headers['x-forwarded-for'] || '') || 
-      req.socket.remoteAddress });
-      // const loginHistory = await this.loginHistoryService.getDevice(req.header)
-      res.status(StatusCodes.OK).json({ data, message: 'login Successfull' });
+      const loginData = await this.authService.login(userData);
+
+      await this.loginHistoryService.addLoginHistory(loginData.user._id, req);
+      res.status(StatusCodes.OK).json({ data: loginData, message: 'login Successfull' });
     } catch (error) {
       next(error);
     }
