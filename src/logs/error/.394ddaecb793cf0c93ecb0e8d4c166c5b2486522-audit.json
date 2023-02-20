@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/bari/Desktop/social-app/social-backend/src/logs/error/.394ddaecb793cf0c93ecb0e8d4c166c5b2486522-audit.json",
+    "files": [
+        {
+            "date": 1676839070619,
+            "name": "/home/bari/Desktop/social-app/social-backend/src/logs/error/2023-02-20.log",
+            "hash": "c5db5213f63ea556e8d0c927df40ef7fce3dab058ab29962e2631b707dffc861"
+        }
+    ],
+    "hashType": "sha256"
+}

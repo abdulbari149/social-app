@@ -1,0 +1,1950 @@
+2023-02-20 01:42:24 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m12[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m'{' expected.
+
+[7m12[0m   @Validate(class )
+[7m  [0m [91m                  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m12[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m'{' expected.
+
+[7m12[0m   @Validate(class )
+[7m  [0m [91m                  ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 01:44:05 error: uncaughtException: IsRequired is not defined
+ReferenceError: IsRequired is not defined
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/dtos/users.dto.ts:10:3)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:3:1)
+2023-02-20 01:46:33 error: uncaughtException: Is is not defined
+ReferenceError: Is is not defined
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/dtos/users.dto.ts:12:4)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:3:1)
+2023-02-20 01:46:45 error: uncaughtException: all is not defined
+ReferenceError: all is not defined
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/dtos/users.dto.ts:12:15)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:3:1)
+2023-02-20 01:46:48 error: uncaughtException: ma is not defined
+ReferenceError: ma is not defined
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/dtos/users.dto.ts:12:15)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:3:1)
+2023-02-20 01:49:00 error: uncaughtException: Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (/home/bari/Desktop/social-app/social-backend/node_modules/path-to-regexp/index.js:63:49)
+    at new Layer (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/router/layer.js:45:17)
+    at Function.use (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/router/index.js:475:17)
+    at Function.<anonymous> (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/application.js:224:7)
+    at /home/bari/Desktop/social-app/social-backend/src/app.ts:68:16
+    at Array.forEach (<anonymous>)
+    at App.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/app.ts:67:12)
+    at new App (/home/bari/Desktop/social-app/social-backend/src/app.ts:29:10)
+2023-02-20 01:49:09 error: uncaughtException: Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (/home/bari/Desktop/social-app/social-backend/node_modules/path-to-regexp/index.js:63:49)
+    at new Layer (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/router/layer.js:45:17)
+    at Function.use (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/router/index.js:475:17)
+    at Function.<anonymous> (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/application.js:224:7)
+    at /home/bari/Desktop/social-app/social-backend/src/app.ts:68:16
+    at Array.forEach (<anonymous>)
+    at App.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/app.ts:67:12)
+    at new App (/home/bari/Desktop/social-app/social-backend/src/app.ts:29:10)
+2023-02-20 01:49:13 error: uncaughtException: Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (/home/bari/Desktop/social-app/social-backend/node_modules/path-to-regexp/index.js:63:49)
+    at new Layer (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/router/layer.js:45:17)
+    at Function.use (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/router/index.js:475:17)
+    at Function.<anonymous> (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/application.js:224:7)
+    at /home/bari/Desktop/social-app/social-backend/src/app.ts:68:16
+    at Array.forEach (<anonymous>)
+    at App.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/app.ts:67:12)
+    at new App (/home/bari/Desktop/social-app/social-backend/src/app.ts:29:10)
+2023-02-20 01:49:17 error: uncaughtException: Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (/home/bari/Desktop/social-app/social-backend/node_modules/path-to-regexp/index.js:63:49)
+    at new Layer (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/router/layer.js:45:17)
+    at Function.use (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/router/index.js:475:17)
+    at Function.<anonymous> (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/application.js:224:7)
+    at /home/bari/Desktop/social-app/social-backend/src/app.ts:68:16
+    at Array.forEach (<anonymous>)
+    at App.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/app.ts:67:12)
+    at new App (/home/bari/Desktop/social-app/social-backend/src/app.ts:29:10)
+2023-02-20 01:49:34 error: uncaughtException: Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (/home/bari/Desktop/social-app/social-backend/node_modules/path-to-regexp/index.js:63:49)
+    at new Layer (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/router/layer.js:45:17)
+    at Function.use (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/router/index.js:475:17)
+    at Function.<anonymous> (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/application.js:224:7)
+    at /home/bari/Desktop/social-app/social-backend/src/app.ts:68:16
+    at Array.forEach (<anonymous>)
+    at App.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/app.ts:67:12)
+    at new App (/home/bari/Desktop/social-app/social-backend/src/app.ts:29:10)
+2023-02-20 01:49:42 error: uncaughtException: Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (/home/bari/Desktop/social-app/social-backend/node_modules/path-to-regexp/index.js:63:49)
+    at new Layer (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/router/layer.js:45:17)
+    at Function.use (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/router/index.js:475:17)
+    at Function.<anonymous> (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/application.js:224:7)
+    at /home/bari/Desktop/social-app/social-backend/src/app.ts:68:16
+    at Array.forEach (<anonymous>)
+    at App.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/app.ts:67:12)
+    at new App (/home/bari/Desktop/social-app/social-backend/src/app.ts:29:10)
+2023-02-20 01:49:45 error: uncaughtException: Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (/home/bari/Desktop/social-app/social-backend/node_modules/path-to-regexp/index.js:63:49)
+    at new Layer (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/router/layer.js:45:17)
+    at Function.use (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/router/index.js:475:17)
+    at Function.<anonymous> (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/application.js:224:7)
+    at /home/bari/Desktop/social-app/social-backend/src/app.ts:68:16
+    at Array.forEach (<anonymous>)
+    at App.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/app.ts:67:12)
+    at new App (/home/bari/Desktop/social-app/social-backend/src/app.ts:29:10)
+2023-02-20 01:49:51 error: uncaughtException: Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (/home/bari/Desktop/social-app/social-backend/node_modules/path-to-regexp/index.js:63:49)
+    at new Layer (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/router/layer.js:45:17)
+    at Function.use (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/router/index.js:475:17)
+    at Function.<anonymous> (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/bari/Desktop/social-app/social-backend/node_modules/express/lib/application.js:224:7)
+    at /home/bari/Desktop/social-app/social-backend/src/app.ts:68:16
+    at Array.forEach (<anonymous>)
+    at App.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/app.ts:67:12)
+    at new App (/home/bari/Desktop/social-app/social-backend/src/app.ts:29:10)
+2023-02-20 01:52:27 error: uncaughtException: config is not defined
+ReferenceError: config is not defined
+    at /home/bari/Desktop/social-app/social-backend/src/app.ts:68:23
+    at Array.forEach (<anonymous>)
+    at App.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/app.ts:67:12)
+    at new App (/home/bari/Desktop/social-app/social-backend/src/app.ts:29:10)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/server.ts:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-02-20 01:54:06 error: uncaughtException: router is not defined
+ReferenceError: router is not defined
+    at /home/bari/Desktop/social-app/social-backend/src/app.ts:69:25
+    at Array.forEach (<anonymous>)
+    at App.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/app.ts:67:12)
+    at new App (/home/bari/Desktop/social-app/social-backend/src/app.ts:29:10)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/server.ts:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-02-20 01:55:24 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: firstName must be a string, lastName must be a string, countryCode must be a number string,countryCode must not be less than 2,countryCode must not be greater than 3,  phone must be a valid phone number in the specified region, email must be an email, password must be a string
+2023-02-20 01:55:51 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: firstName must be a string, lastName must be a string, countryCode must be a number string,countryCode must not be less than 2,countryCode must not be greater than 3,  phone must be a valid phone number in the specified region, email must be an email, password must be a string
+2023-02-20 01:57:09 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: firstName must be a string, lastName must be a string, countryCode must be a number string,countryCode must not be less than 2,countryCode must not be greater than 3,  phone must be a valid phone number in the specified region, email must be an email, password must be a string
+2023-02-20 01:57:41 error: uncaughtException: clas is not defined
+ReferenceError: clas is not defined
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/exceptions/HttpException.ts:13:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/services/auth.service.ts:5:1)
+2023-02-20 01:57:47 error: uncaughtException: Unexpected token ';'
+/home/bari/Desktop/social-app/social-backend/src/exceptions/HttpException.ts:4
+const ;
+      ^
+
+SyntaxError: Unexpected token ';'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-02-20 02:01:24 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: firstName must be a string, lastName must be a string, countryCode must be a number string,countryCode must not be less than 2,countryCode must not be greater than 3,  phone must be a valid phone number in the specified region, email must be an email, password must be a string
+2023-02-20 02:01:25 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: firstName must be a string, lastName must be a string, countryCode must be a number string,countryCode must not be less than 2,countryCode must not be greater than 3,  phone must be a valid phone number in the specified region, email must be an email, password must be a string
+2023-02-20 02:01:26 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: firstName must be a string, lastName must be a string, countryCode must be a number string,countryCode must not be less than 2,countryCode must not be greater than 3,  phone must be a valid phone number in the specified region, email must be an email, password must be a string
+2023-02-20 02:02:27 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: firstName must be a string, lastName must be a string, countryCode must be a number string,countryCode must not be less than 2,countryCode must not be greater than 3,  phone must be a valid phone number in the specified region, email must be an email, password must be a string
+2023-02-20 02:03:53 error: [POST] /api/v1/auth/signup >> StatusCode:: 500, Message:: firstName must be a string, lastName must be a string, countryCode must be a number string,countryCode must not be less than 2,countryCode must not be greater than 3,  phone must be a valid phone number in the specified region, email must be an email, password must be a string
+2023-02-20 02:04:49 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 02:05:02 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 02:06:39 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 02:07:11 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 02:07:34 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 02:08:04 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: firstName must be a string, lastName must be a string, countryCode must be a number string,countryCode must not be less than 2,countryCode must not be greater than 3,  phone must be a valid phone number in the specified region, email must be an email, password must be a string
+2023-02-20 02:08:05 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: firstName must be a string, lastName must be a string, countryCode must be a number string,countryCode must not be less than 2,countryCode must not be greater than 3,  phone must be a valid phone number in the specified region, email must be an email, password must be a string
+2023-02-20 02:08:24 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: firstName must be a string, lastName must be a string, countryCode must be a number string,countryCode must not be less than 2,countryCode must not be greater than 3,  phone must be a valid phone number in the specified region, email must be an email, password must be a string
+2023-02-20 02:08:43 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: firstName must be a string, lastName must be a string, countryCode must be a number string,countryCode must not be less than 2,countryCode must not be greater than 3,  phone must be a valid phone number in the specified region, email must be an email, password must be a string
+2023-02-20 02:08:44 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: firstName must be a string, lastName must be a string, countryCode must be a number string,countryCode must not be less than 2,countryCode must not be greater than 3,  phone must be a valid phone number in the specified region, email must be an email, password must be a string
+2023-02-20 02:09:12 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 02:12:45 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m17[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m   @prop({ type: String;  })
+[7m  [0m [91m                      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m17[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m   @prop({ type: String;  })
+[7m  [0m [91m                      ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:12:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m17[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m   @prop({ type: String; profile })
+[7m  [0m [91m                      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m17[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m   @prop({ type: String; profile })
+[7m  [0m [91m                      ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:12:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m17[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m   @prop({ type: String; profilePictureUrl })
+[7m  [0m [91m                      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m17[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m   @prop({ type: String; profilePictureUrl })
+[7m  [0m [91m                      ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:13:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m17[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m   @prop({ type: String; required })
+[7m  [0m [91m                      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m17[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m   @prop({ type: String; required })
+[7m  [0m [91m                      ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:13:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m17[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m   @prop({ type: String; required: false })
+[7m  [0m [91m                      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m17[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m   @prop({ type: String; required: false })
+[7m  [0m [91m                      ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:15:17 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m33[0m:[93m11[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m33[0m UserModel.
+[7m  [0m [91m          [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m33[0m:[93m11[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m33[0m UserModel.
+[7m  [0m [91m          [0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:19:23 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m32[0m:[93m3[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m32[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m32[0m:[93m3[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m32[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:19:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m33[0m:[93m11[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m33[0m UserModel.
+[7m  [0m [91m          [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m33[0m:[93m11[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m33[0m UserModel.
+[7m  [0m [91m          [0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:22:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m15[0m:[93m40[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m15[0m     const user: User = await userModel.({ email: userData.email }).exec();
+[7m  [0m [91m                                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m15[0m:[93m40[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m15[0m     const user: User = await userModel.({ email: userData.email }).exec();
+[7m  [0m [91m                                       ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:22:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m16[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m16[0m     if () throw new HttpException(409, `This email ${userData.email} already exists`);
+[7m  [0m [91m        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m16[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m16[0m     if () throw new HttpException(409, `This email ${userData.email} already exists`);
+[7m  [0m [91m        ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:28:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m24[0m:[93m81[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m24[0m   public async login(data: LoginDto): Promise<{ accessToken: string; user:  }> {
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m24[0m:[93m81[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m24[0m   public async login(data: LoginDto): Promise<{ accessToken: string; user:  }> {
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:30:50 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m26[0m:[93m60[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m26[0m     const user: User = await userModel.getUserByEmail(data.);
+[7m  [0m [91m                                                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m26[0m:[93m60[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m26[0m     const user: User = await userModel.getUserByEmail(data.);
+[7m  [0m [91m                                                           ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:37:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/validateEnv.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m10[0m   });
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/validateEnv.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m10[0m   });
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:38:49 error: uncaughtException: Missing initializer in const declaration
+/home/bari/Desktop/social-app/social-backend/src/services/auth.service.ts:35
+        const accessToken;
+              ^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-02-20 02:38:57 error: uncaughtException: Missing initializer in const declaration
+/home/bari/Desktop/social-app/social-backend/src/services/auth.service.ts:35
+        const accessToken;
+              ^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-02-20 02:39:04 error: uncaughtException: Missing initializer in const declaration
+/home/bari/Desktop/social-app/social-backend/src/services/auth.service.ts:35
+        const accessToken;
+              ^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-02-20 02:39:07 error: uncaughtException: Missing initializer in const declaration
+/home/bari/Desktop/social-app/social-backend/src/services/auth.service.ts:35
+        const accessToken;
+              ^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-02-20 02:39:10 error: uncaughtException: Missing initializer in const declaration
+/home/bari/Desktop/social-app/social-backend/src/services/auth.service.ts:35
+        const accessToken;
+              ^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-02-20 02:39:19 error: uncaughtException: Missing initializer in const declaration
+/home/bari/Desktop/social-app/social-backend/src/services/auth.service.ts:35
+        const accessToken;
+              ^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-02-20 02:39:35 error: uncaughtException: Missing initializer in const declaration
+/home/bari/Desktop/social-app/social-backend/src/services/auth.service.ts:35
+        const accessToken;
+              ^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-02-20 02:41:45 error: uncaughtException: User is not defined
+ReferenceError: User is not defined
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/models/users.model.ts:37:36)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/services/auth.service.ts:7:1)
+2023-02-20 02:41:48 error: uncaughtException: User is not defined
+ReferenceError: User is not defined
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/models/users.model.ts:37:36)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/services/auth.service.ts:7:1)
+2023-02-20 02:41:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m35[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m35[0m export User
+[7m  [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m35[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m35[0m export User
+[7m  [0m [91m~~~~~~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:41:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m37[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'{' expected.
+
+[7m37[0m const UserModel = getModelForClass(UserSchema);
+[7m  [0m [91m~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m37[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'{' expected.
+
+[7m37[0m const UserModel = getModelForClass(UserSchema);
+[7m  [0m [91m~~~~~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:42:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m37[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'=' expected.
+
+[7m37[0m const UserModel = getModelForClass(UserSchema);
+[7m  [0m [91m~~~~~[0m
+[96msrc/models/users.model.ts[0m:[93m37[0m:[93m7[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m37[0m const UserModel = getModelForClass(UserSchema);
+[7m  [0m [91m      ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m37[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'=' expected.
+
+[7m37[0m const UserModel = getModelForClass(UserSchema);
+[7m  [0m [91m~~~~~[0m
+[96msrc/models/users.model.ts[0m:[93m37[0m:[93m7[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m37[0m const UserModel = getModelForClass(UserSchema);
+[7m  [0m [91m      ~~~~~~~~~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:44:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m75[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m32[0m     const isPasswordMatching: boolean = await compare(data.password, user.);
+[7m  [0m [91m                                                                          ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m75[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m32[0m     const isPasswordMatching: boolean = await compare(data.password, user.);
+[7m  [0m [91m                                                                          ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:44:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m75[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m32[0m     const isPasswordMatching: boolean = await compare(data.password, user.);
+[7m  [0m [91m                                                                          ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m75[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m32[0m     const isPasswordMatching: boolean = await compare(data.password, user.);
+[7m  [0m [91m                                                                          ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:44:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m37[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m37[0m     return { user, accessToken, refreshToken };
+[7m  [0m [91m           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m37[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m37[0m     return { user, accessToken, refreshToken };
+[7m  [0m [91m           ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:45:25 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/helpers/jwt.helpers.ts[0m:[93m16[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m16[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/helpers/jwt.helpers.ts[0m:[93m16[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m16[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:49:06 error: uncaughtException: JWT_REFRESH_TOKEN_SECRET is not defined
+ReferenceError: JWT_REFRESH_TOKEN_SECRET is not defined
+    at validateEnv (/home/bari/Desktop/social-app/social-backend/src/utils/validateEnv.ts:11:5)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/server.ts:7:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at phase4 (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/bin.ts:649:14)
+2023-02-20 02:51:16 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/helpers/jwt.helpers.ts[0m:[93m15[0m:[93m68[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m15[0m     const token = sign(data, jwt.refresh.secret, { expiresIn: jwt. });
+[7m  [0m [91m                                                                   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/helpers/jwt.helpers.ts[0m:[93m15[0m:[93m68[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m15[0m     const token = sign(data, jwt.refresh.secret, { expiresIn: jwt. });
+[7m  [0m [91m                                                                   ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:52:28 error: uncaughtException: Identifier 'refreshToken' has already been declared
+/home/bari/Desktop/social-app/social-backend/src/services/auth.service.ts:34
+        const refreshToken = this.jwtHelpers.signRefreshToken({ id: user._id });
+              ^
+
+SyntaxError: Identifier 'refreshToken' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-02-20 02:52:34 error: uncaughtException: Identifier 'refreshToken' has already been declared
+/home/bari/Desktop/social-app/social-backend/src/services/auth.service.ts:34
+        const refreshToken = this.jwtHelpers.signRefreshToken({ id: user._id });
+              ^
+
+SyntaxError: Identifier 'refreshToken' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-02-20 02:52:39 error: uncaughtException: Identifier 'refreshToken' has already been declared
+/home/bari/Desktop/social-app/social-backend/src/services/auth.service.ts:34
+        const refreshToken = this.jwtHelpers.signRefreshToken({ id: user._id });
+              ^
+
+SyntaxError: Identifier 'refreshToken' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-02-20 02:53:52 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 02:54:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m14[0m:[93m98[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m14[0m       res.status(StatusCodes.CREATED).json({ data: user, message: 'Signup Successfull', status:  });
+[7m  [0m [91m                                                                                                 ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m14[0m:[93m98[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m14[0m       res.status(StatusCodes.CREATED).json({ data: user, message: 'Signup Successfull', status:  });
+[7m  [0m [91m                                                                                                 ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:55:22 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m22[0m:[93m24[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m22[0m       const userData:  = req.body;
+[7m  [0m [91m                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m22[0m:[93m24[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m22[0m       const userData:  = req.body;
+[7m  [0m [91m                       ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:55:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m22[0m:[93m20[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m22[0m       const data:  = req.body;
+[7m  [0m [91m                   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m22[0m:[93m20[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m22[0m       const data:  = req.body;
+[7m  [0m [91m                   ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:56:10 error: uncaughtException: SignU is not defined
+ReferenceError: SignU is not defined
+    at AuthRoute.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:19:42)
+    at new AuthRoute (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:15:10)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/server.ts:9:58)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2023-02-20 02:56:13 error: uncaughtException: SignupUserDto is not defined
+ReferenceError: SignupUserDto is not defined
+    at AuthRoute.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:19:42)
+    at new AuthRoute (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:15:10)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/server.ts:9:58)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2023-02-20 02:56:31 error: uncaughtException: SignupUserDto is not defined
+ReferenceError: SignupUserDto is not defined
+    at AuthRoute.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:19:42)
+    at new AuthRoute (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:15:10)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/server.ts:9:58)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2023-02-20 02:56:38 error: uncaughtException: SignupUserDto is not defined
+ReferenceError: SignupUserDto is not defined
+    at AuthRoute.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:19:42)
+    at new AuthRoute (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:15:10)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/server.ts:9:58)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2023-02-20 02:56:53 error: uncaughtException: SignupUserDto is not defined
+ReferenceError: SignupUserDto is not defined
+    at AuthRoute.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:19:42)
+    at new AuthRoute (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:15:10)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/server.ts:9:58)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2023-02-20 02:56:57 error: uncaughtException: SignupUserDto is not defined
+ReferenceError: SignupUserDto is not defined
+    at AuthRoute.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:19:42)
+    at new AuthRoute (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:15:10)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/server.ts:9:58)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2023-02-20 02:57:07 error: uncaughtException: SignupUserDto is not defined
+ReferenceError: SignupUserDto is not defined
+    at AuthRoute.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:19:42)
+    at new AuthRoute (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:15:10)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/server.ts:9:58)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2023-02-20 02:57:11 error: uncaughtException: SignupUserDto is not defined
+ReferenceError: SignupUserDto is not defined
+    at AuthRoute.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:19:42)
+    at new AuthRoute (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:15:10)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/server.ts:9:58)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2023-02-20 02:57:19 error: uncaughtException: SignupUserDto is not defined
+ReferenceError: SignupUserDto is not defined
+    at AuthRoute.initializeRoutes (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:19:42)
+    at new AuthRoute (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:15:10)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/server.ts:9:58)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2023-02-20 02:57:25 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m19[0m:[93m42[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m19[0m     this.router.post(`/signup`, validate(, 'body'), this.authController.signUp);
+[7m  [0m [91m                                         ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m19[0m:[93m42[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m19[0m     this.router.post(`/signup`, validate(, 'body'), this.authController.signUp);
+[7m  [0m [91m                                         ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 02:58:34 error: uncaughtException: Identifier 'data' has already been declared
+/home/bari/Desktop/social-app/social-backend/src/services/auth.service.ts:21
+        const data = await users_model_1.default.create(Object.assign(Object.assign({}, userData), { password: hashedPassword }));
+              ^
+
+SyntaxError: Identifier 'data' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-02-20 02:58:39 error: uncaughtException: Identifier 'data' has already been declared
+/home/bari/Desktop/social-app/social-backend/src/services/auth.service.ts:21
+        const data = await users_model_1.default.create(Object.assign(Object.assign({}, data), { password: hashedPassword }));
+              ^
+
+SyntaxError: Identifier 'data' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-02-20 02:59:41 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 02:59:55 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 02:59:58 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 03:00:30 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 03:00:41 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 03:01:25 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 03:02:16 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 03:03:00 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 03:03:12 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 03:03:20 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 03:03:31 error: [POST] /api/v1/auth/signup >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 03:05:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m     };
+[7m  [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m     };
+[7m  [0m [91m    ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:07:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m19[0m:[93m89[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m19[0m     const newUser: User = await userModel.create({ ...data, password: hashedPassword }).;
+[7m  [0m [91m                                                                                        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m19[0m:[93m89[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m19[0m     const newUser: User = await userModel.create({ ...data, password: hashedPassword }).;
+[7m  [0m [91m                                                                                        ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:11:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m62[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m21[0m export const omit = <T extends object, K >(data: T, ...keys: ): Omit<T, > => {
+[7m  [0m [91m                                                             ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m62[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m21[0m export const omit = <T extends object, K >(data: T, ...keys: ): Omit<T, > => {
+[7m  [0m [91m                                                             ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:12:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m'?' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                     ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m50[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                                 ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                                   ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m66[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                                                 ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m71[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                                                      ~~~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m82[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                                                                 [0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m83[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                                                                  ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m84[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                                                                   ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m114[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                                                                                                 ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m'?' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                     ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m50[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                                 ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                                   ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m66[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                                                 ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m71[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                                                      ~~~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m82[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                                                                 [0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m83[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                                                                  ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m84[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                                                                   ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m114[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string> => {
+[7m  [0m [91m                                                                                                                 ~~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:12:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m'?' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                     ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m50[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                                 ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                                   ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m66[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                                                 ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m71[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                                                      ~~~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m82[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                                                                 [0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m83[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                                                                  ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m84[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                                                                   ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m115[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                                                                                                  ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m'?' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                     ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m50[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                                 ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                                   ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m66[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                                                 ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m71[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                                                      ~~~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m82[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                                                                 [0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m83[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                                                                  ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m84[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                                                                   ~[0m
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m115[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m export const omit = <T extends object, K = keyof T | string>(data: T, ...keys: K[]): Omit<T, K satisfies string?> => {
+[7m  [0m [91m                                                                                                                  ~~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:16:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m26[0m:[93m37[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m26[0m   return Object.fromEntries(object) sa
+[7m  [0m [91m                                    ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m26[0m:[93m37[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m26[0m   return Object.fromEntries(object) sa
+[7m  [0m [91m                                    ~~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:17:52 error: [POST] /api/v1/auth/signup >> StatusCode:: 409, Message:: Something went wrong
+2023-02-20 03:19:16 error: uncaughtException: Identifier 'data' has already been declared
+/home/bari/Desktop/social-app/social-backend/src/services/auth.service.ts:22
+        const data = (0, util_1.omit)(newUser.toObject(), 'password');
+              ^
+
+SyntaxError: Identifier 'data' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-02-20 03:20:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m13[0m:[93m54[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m13[0m   public async signup(data: SignupDto): Promise<Omit<, "password">> {
+[7m  [0m [91m                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m13[0m:[93m54[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m13[0m   public async signup(data: SignupDto): Promise<Omit<, "password">> {
+[7m  [0m [91m                                                     ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:21:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m13[0m:[93m54[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m13[0m   public async signup(data: SignupDto): Promise<Omit<, "password">> {
+[7m  [0m [91m                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m13[0m:[93m54[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m13[0m   public async signup(data: SignupDto): Promise<Omit<, "password">> {
+[7m  [0m [91m                                                     ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:21:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m13[0m:[93m54[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m13[0m   public async signup(data: SignupDto): Promise<Omit<, "password">> {
+[7m  [0m [91m                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m13[0m:[93m54[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m13[0m   public async signup(data: SignupDto): Promise<Omit<, "password">> {
+[7m  [0m [91m                                                     ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:21:16 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m13[0m:[93m54[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m13[0m   public async signup(data: SignupDto): Promise<Omit<, "password">> {
+[7m  [0m [91m                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m13[0m:[93m54[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m13[0m   public async signup(data: SignupDto): Promise<Omit<, "password">> {
+[7m  [0m [91m                                                     ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:21:21 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m13[0m:[93m54[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m13[0m   public async signup(data: SignupDto): Promise<Omit<, "password">> {
+[7m  [0m [91m                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m13[0m:[93m54[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m13[0m   public async signup(data: SignupDto): Promise<Omit<, "password">> {
+[7m  [0m [91m                                                     ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:21:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m13[0m:[93m76[0m - [91merror[0m[90m TS1144: [0m'{' or ';' expected.
+
+[7m13[0m   public async signup(data: SignupDto): Promise<Omit<UserData>, "password">> {
+[7m  [0m [91m                                                                           ~[0m
+[96msrc/services/auth.service.ts[0m:[93m14[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m14[0m     if (isEmpty(data)) throw new HttpException(400, 'registration data is empty');
+[7m  [0m [91m               ~[0m
+[96msrc/services/auth.service.ts[0m:[93m14[0m:[93m22[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m14[0m     if (isEmpty(data)) throw new HttpException(400, 'registration data is empty');
+[7m  [0m [91m                     ~[0m
+[96msrc/services/auth.service.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+[96msrc/services/auth.service.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m25[0m   public async login(data: LoginDto): Promise<LoginResponse> {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m25[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m25[0m   public async login(data: LoginDto): Promise<LoginResponse> {
+[7m  [0m [91m         ~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m25[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m25[0m   public async login(data: LoginDto): Promise<LoginResponse> {
+[7m  [0m [91m                         ~[0m
+[96msrc/services/auth.service.ts[0m:[93m25[0m:[93m37[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m25[0m   public async login(data: LoginDto): Promise<LoginResponse> {
+[7m  [0m [91m                                    ~[0m
+[96msrc/services/auth.service.ts[0m:[93m26[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m26[0m     if (isEmpty(data)) throw new HttpException(400, 'login is empty');
+[7m  [0m [91m               ~[0m
+[96msrc/services/auth.service.ts[0m:[93m26[0m:[93m22[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m26[0m     if (isEmpty(data)) throw new HttpException(400, 'login is empty');
+[7m  [0m [91m                     ~[0m
+[96msrc/services/auth.service.ts[0m:[93m39[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m39[0m   }
+[7m  [0m [91m  ~[0m
+[96msrc/services/auth.service.ts[0m:[93m41[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m41[0m   public async logout(data: User): Promise<User> {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m41[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m41[0m   public async logout(data: User): Promise<User> {
+[7m  [0m [91m         ~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m41[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m41[0m   public async logout(data: User): Promise<User> {
+[7m  [0m [91m                          ~[0m
+[96msrc/services/auth.service.ts[0m:[93m41[0m:[93m34[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m41[0m   public async logout(data: User): Promise<User> {
+[7m  [0m [91m                                 ~[0m
+[96msrc/services/auth.service.ts[0m:[93m42[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m42[0m     if (isEmpty(data)) throw new HttpException(400, 'data is empty');
+[7m  [0m [91m               ~[0m
+[96msrc/services/auth.service.ts[0m:[93m42[0m:[93m22[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m42[0m     if (isEmpty(data)) throw new HttpException(400, 'data is empty');
+[7m  [0m [91m                     ~[0m
+[96msrc/services/auth.service.ts[0m:[93m46[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m46[0m   }
+[7m  [0m [91m  ~[0m
+[96msrc/services/auth.service.ts[0m:[93m47[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m47[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m13[0m:[93m76[0m - [91merror[0m[90m TS1144: [0m'{' or ';' expected.
+
+[7m13[0m   public async signup(data: SignupDto): Promise<Omit<UserData>, "password">> {
+[7m  [0m [91m                                                                           ~[0m
+[96msrc/services/auth.service.ts[0m:[93m14[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m14[0m     if (isEmpty(data)) throw new HttpException(400, 'registration data is empty');
+[7m  [0m [91m               ~[0m
+[96msrc/services/auth.service.ts[0m:[93m14[0m:[93m22[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m14[0m     if (isEmpty(data)) throw new HttpException(400, 'registration data is empty');
+[7m  [0m [91m                     ~[0m
+[96msrc/services/auth.service.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+[96msrc/services/auth.service.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m25[0m   public async login(data: LoginDto): Promise<LoginResponse> {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m25[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m25[0m   public async login(data: LoginDto): Promise<LoginResponse> {
+[7m  [0m [91m         ~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m25[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m25[0m   public async login(data: LoginDto): Promise<LoginResponse> {
+[7m  [0m [91m                         ~[0m
+[96msrc/services/auth.service.ts[0m:[93m25[0m:[93m37[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m25[0m   public async login(data: LoginDto): Promise<LoginResponse> {
+[7m  [0m [91m                                    ~[0m
+[96msrc/services/auth.service.ts[0m:[93m26[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m26[0m     if (isEmpty(data)) throw new HttpException(400, 'login is empty');
+[7m  [0m [91m               ~[0m
+[96msrc/services/auth.service.ts[0m:[93m26[0m:[93m22[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m26[0m     if (isEmpty(data)) throw new HttpException(400, 'login is empty');
+[7m  [0m [91m                     ~[0m
+[96msrc/services/auth.service.ts[0m:[93m39[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m39[0m   }
+[7m  [0m [91m  ~[0m
+[96msrc/services/auth.service.ts[0m:[93m41[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m41[0m   public async logout(data: User): Promise<User> {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m41[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m41[0m   public async logout(data: User): Promise<User> {
+[7m  [0m [91m         ~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m41[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m41[0m   public async logout(data: User): Promise<User> {
+[7m  [0m [91m                          ~[0m
+[96msrc/services/auth.service.ts[0m:[93m41[0m:[93m34[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m41[0m   public async logout(data: User): Promise<User> {
+[7m  [0m [91m                                 ~[0m
+[96msrc/services/auth.service.ts[0m:[93m42[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m42[0m     if (isEmpty(data)) throw new HttpException(400, 'data is empty');
+[7m  [0m [91m               ~[0m
+[96msrc/services/auth.service.ts[0m:[93m42[0m:[93m22[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m42[0m     if (isEmpty(data)) throw new HttpException(400, 'data is empty');
+[7m  [0m [91m                     ~[0m
+[96msrc/services/auth.service.ts[0m:[93m46[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m46[0m   }
+[7m  [0m [91m  ~[0m
+[96msrc/services/auth.service.ts[0m:[93m47[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m47[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:23:27 error: [POST] /api/v1/auth/signup >> StatusCode:: 409, Message:: Something went wrong
+2023-02-20 03:24:14 error: [POST] /api/v1/auth/login >> StatusCode:: 400, Message:: Something went wrong
+2023-02-20 03:24:36 error: [POST] /api/v1/auth/login >> StatusCode:: 409, Message:: Something went wrong
+2023-02-20 03:31:22 error: [POST] /api/v1/auth/signup >> StatusCode:: 409, Message:: Something went wrong
+2023-02-20 03:36:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m38[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m export type UserData = LeanDocument<UserSchema> & {
+[7m  [0m [91m       ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m38[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m export type UserData = LeanDocument<UserSchema> & {
+[7m  [0m [91m       ~~~~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:37:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m38[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m export type UserData = LeanDocument<UserSchema> & {
+[7m  [0m [91m       ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m38[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m export type UserData = LeanDocument<UserSchema> & {
+[7m  [0m [91m       ~~~~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:37:23 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m38[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m export type UserData = LeanDocument<UserSchema> & {
+[7m  [0m [91m       ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m38[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m export type UserData = LeanDocument<UserSchema> & {
+[7m  [0m [91m       ~~~~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:37:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m38[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m export type UserData = LeanDocument<UserSchema> & {
+[7m  [0m [91m       ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m38[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m export type UserData = LeanDocument<UserSchema> & {
+[7m  [0m [91m       ~~~~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:38:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m38[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m export type UserData = LeanDocument<UserSchema> & {
+[7m  [0m [91m       ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m38[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m export type UserData = LeanDocument<UserSchema> & {
+[7m  [0m [91m       ~~~~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:38:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m38[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m export type UserData = LeanDocument<UserSchema> & {
+[7m  [0m [91m       ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m38[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m export type UserData = LeanDocument<UserSchema> & {
+[7m  [0m [91m       ~~~~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 03:38:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m38[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m export type UserData = LeanDocument<UserSchema> & {
+[7m  [0m [91m       ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m38[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m export type UserData = LeanDocument<UserSchema> & {
+[7m  [0m [91m       ~~~~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 10:04:43 error: uncaughtException: Missing initializer in const declaration
+/home/bari/Desktop/social-app/social-backend/src/controllers/auth.controller.ts:22
+                const login;
+                      ^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-02-20 10:05:35 error: uncaughtException: LoginHistoryService is not defined
+ReferenceError: LoginHistoryService is not defined
+    at new AuthController (/home/bari/Desktop/social-app/social-backend/src/controllers/auth.controller.ts:10:37)
+    at new AuthRoute (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:12:27)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/server.ts:9:58)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2023-02-20 10:05:57 error: uncaughtException: LoginHistoryService is not defined
+ReferenceError: LoginHistoryService is not defined
+    at new AuthController (/home/bari/Desktop/social-app/social-backend/src/controllers/auth.controller.ts:10:37)
+    at new AuthRoute (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:12:27)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/server.ts:9:58)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2023-02-20 10:06:06 error: uncaughtException: LoginHistoryService is not defined
+ReferenceError: LoginHistoryService is not defined
+    at new AuthController (/home/bari/Desktop/social-app/social-backend/src/controllers/auth.controller.ts:10:37)
+    at new AuthRoute (/home/bari/Desktop/social-app/social-backend/src/routes/auth.route.ts:12:27)
+    at Object.<anonymous> (/home/bari/Desktop/social-app/social-backend/src/server.ts:9:58)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2023-02-20 10:06:22 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m26[0m:[93m59[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m26[0m       const loginHistory = await this.loginHistoryService.()
+[7m  [0m [91m                                                          ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m26[0m:[93m59[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m26[0m       const loginHistory = await this.loginHistoryService.()
+[7m  [0m [91m                                                          ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-02-20 10:06:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m26[0m:[93m80[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m26[0m       const loginHistory = await this.loginHistoryService.getDevice(req.header.)
+[7m  [0m [91m                                                                               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m26[0m:[93m80[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m26[0m       const loginHistory = await this.loginHistoryService.getDevice(req.header.)
+[7m  [0m [91m                                                                               ~[0m
+
+    at createTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bari/Desktop/social-app/social-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
