@@ -7,6 +7,9 @@ import validateEnv from '@utils/validateEnv';
 validateEnv();
 
 const server = new App([new IndexRoute(), new UsersRoute(), new AuthRoute()]);
+server.app.get('/', (req, res) => {
+  res.send('Welcome')
+})
 
 server.listen();
 
