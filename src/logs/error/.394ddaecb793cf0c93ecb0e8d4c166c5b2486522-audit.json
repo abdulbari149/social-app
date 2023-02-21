@@ -9,6 +9,11 @@
             "date": 1676839070619,
             "name": "/home/bari/Desktop/social-app/social-backend/src/logs/error/2023-02-20.log",
             "hash": "c5db5213f63ea556e8d0c927df40ef7fce3dab058ab29962e2631b707dffc861"
+        },
+        {
+            "date": 1677002695923,
+            "name": "/home/bari/Desktop/social-app/social-backend/src/logs/error/2023-02-21.log",
+            "hash": "7c2fc4fd331351d9c1d0e4ad8cc6fea4de5f323507633f5277fbc3a0a20910ca"
         }
     ],
     "hashType": "sha256"
