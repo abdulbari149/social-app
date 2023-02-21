@@ -2,7 +2,7 @@ import { config } from 'dotenv';
 config({ path: `.env.${process.env.NODE_ENV || 'development'}.local` });
 
 export const CREDENTIALS = process.env.CREDENTIALS === 'true';
-export const { NODE_ENV, PORT, DB_HOST, DB_PORT, DB_DATABASE, SECRET_KEY, LOG_FORMAT, LOG_DIR, ORIGIN, APP_PREFIX, MONGO_URI } = process.env;
+export const { NODE_ENV, PORT, DB_HOST, DB_PORT, DB_DATABASE, SECRET_KEY, LOG_FORMAT, LOG_DIR, ORIGIN, API_PREFIX, MONGO_URI } = process.env;
 
 export const jwt: Record<'access' | 'refresh', { secret: string; expiresIn: string }> = {
   access: {

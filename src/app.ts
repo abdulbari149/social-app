@@ -8,7 +8,7 @@ import morgan from 'morgan';
 import { connect, set } from 'mongoose';
 import swaggerJSDoc from 'swagger-jsdoc';
 import swaggerUi from 'swagger-ui-express';
-import { NODE_ENV, PORT, LOG_FORMAT, ORIGIN, CREDENTIALS, APP_PREFIX, MONGO_URI } from '@config';
+import { NODE_ENV, PORT, LOG_FORMAT, ORIGIN, CREDENTIALS, API_PREFIX, MONGO_URI } from '@config';
 import { Routes } from '@interfaces/routes.interface';
 import errorMiddleware from '@middlewares/error.middleware';
 import { logger, stream } from '@utils/logger';
@@ -66,7 +66,7 @@ class App {
   private initializeRoutes(routes: Routes[]) {
     routes.forEach(route => {
       const { path = '/', router } = route;
-      const router_path = APP_PREFIX + path
+      const router_path = API_PREFIX + path
       logger.info(`${router.name} : ${router_path}`)
       this.app.use(router_path, router);
     });
