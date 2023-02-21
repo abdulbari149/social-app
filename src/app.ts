@@ -67,6 +67,7 @@ class App {
     routes.forEach(route => {
       const { path = '/', router } = route;
       const router_path = APP_PREFIX + path
+      logger.info(`${router.name} : ${router_path}`)
       this.app.use(router_path, router);
     });
   }
